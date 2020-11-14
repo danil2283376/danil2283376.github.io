@@ -1,0 +1,79 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.header{
+	width: calc(100% - 6rem);
+	height: 6rem;
+	background-color: rgb(38, 38, 38);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 3rem;
+}
+div.logo{
+	width: 5rem;
+	height: 5rem;
+	background: rgb(0, 0, 0);
+	border-radius: 100%;
+	position: relative;
+	border-radius: 100%;
+}
+div#logo_in{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	display: block;
+	background-color: rgb(0, 0, 0);
+	border-radius: 100%;
+	background-size: contain;
+	transition-duration: 1s;
+}
+div.time{
+	font-size: x-large;
+}
+div.section{
+	color: whitesmoke;
+	font-size: 120%;
+	padding: 0 3rem;
+	margin: 2rem 0;
+	border-bottom: 2px solid rgb(38, 38, 38);
+}
+div.aWrapper{
+	display: grid;
+	width: 100%;
+	grid-gap: 1rem;
+	padding: 1rem 0;
+}
+a.sectionhref{
+	width: 100%;
+	height: 15vh;
+	background-color: rgb(38, 38, 38);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	text-decoration: none;
+	text-align: center;
+	justify-self: center;
+	font-weight: bold;
+}
+a.sectionhref:hover{
+	font-size: 110%;
+	color: white;
+}
+textarea#note{
+	outline: none;
+	border: none;
+	color: rgb(44, 89, 0);
+	width: calc(100% - 2rem);
+	background-color: rgb(38, 38, 38);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 1rem;
+	font-size: 105%;
+	margin-bottom: 1rem;
+}
